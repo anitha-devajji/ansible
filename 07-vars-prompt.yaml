@@ -3,7 +3,7 @@
  tasks:
  -name: get from arguments
   ansible.builtin.debug:
-    msg:"Hello {{PERSON}},Good {{WISHES}}"
+     msg:"Hello {{PERSON}},Good {{WISHES}}"
 
 
 
